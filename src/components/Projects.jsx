@@ -1,5 +1,6 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+
 function Projects() {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -13,7 +14,13 @@ function Projects() {
       </motion.h1>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <a
+            href={project.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            key={index}
+            className="mb-8 flex flex-wrap lg:justify-center"
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -45,7 +52,7 @@ function Projects() {
                 </span>
               ))}
             </motion.div>
-          </div>
+          </a>
         ))}
       </div>
     </div>

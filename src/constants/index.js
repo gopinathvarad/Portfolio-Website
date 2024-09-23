@@ -67,6 +67,7 @@ export const PROJECTS = [
       "MongoDB",
       "Firebase",
     ],
+    githubLink: "https://github.com/gopinathvarad/mern-blog",
   },
   {
     title:
@@ -82,6 +83,7 @@ export const PROJECTS = [
       "Vue.js",
       "Three.js",
     ],
+    githubLink: "https://github.com/gopinathvarad/Teacher-Dashboard-Project",
   },
   {
     title: "Group Call Application with WebRTC Mesh Architecture",
@@ -96,6 +98,8 @@ export const PROJECTS = [
       "Node.js",
       "Express.js",
     ],
+    githubLink:
+      "https://github.com/gopinathvarad/Group-Video-Chat-Application-using-WebRTC",
   },
   {
     title: "Augmented Reality App for Education",
@@ -103,6 +107,8 @@ export const PROJECTS = [
     description:
       "I developed a marker-based AR technology with virtual buttons and AR video, providing an immersive and interactive learning experience for users of all ages, allowing in-depth concept understanding through mobile devices.",
     technologies: ["C#", "Unity", "Vuforia", "Blender"],
+    githubLink:
+      "https://github.com/gopinathvarad/Augmented-Reality-Education-App",
   },
 ];
 

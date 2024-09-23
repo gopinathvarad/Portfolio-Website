@@ -25,17 +25,30 @@ const Hero = () => {
             >
               Gopinath Varadarajan
             </motion.h1>
-            <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
+            <motion.span
+              variants={container(0.5)}
+              initial="hidden"
+              animate="visible"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
+            >
               Full Stack Developer
-            </span>
-            <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
+            </motion.span>
+            <motion.p
+              variants={container(1)}
+              initial="hidden"
+              animate="visible"
+              className="my-2 max-w-xl py-6 tracking-tighter"
+            >
               {HERO_CONTENT}
-            </p>
+            </motion.p>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img
+            <motion.img
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 1.2 }}
               className="rounded-3xl "
               src={profilePic}
               alt="Gopinath Varadarajan"

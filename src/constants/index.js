@@ -1,76 +1,113 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I have completed my Master’s in Advanced Computer Science. With hands-on experience in software development, I have honed my skills in front-end technologies such as React and Next.js, as well as back-end technologies including Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage this expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile software developer with a passion for creating efficient and user-friendly applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in software development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I'm a polyglot who loves learning new languages and is also a sports and fitness enthusiast, enjoying football, cricket, and working out at the gym. Feel free to connect to discuss anything from technical challenges to hobbies I'm always eager to help and share insights`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Jan 2021 - Present",
+    role: "Freelance Developer",
+    company: "Personal Agency / Chegg",
+    description: `I leveraged my expertise in Computer Science to deliver tailored software projects and comprehensive solutions, enhancing user engagement, optimizing workflows, and contributing to business growth while helping students deepen their understanding of complex subjects.`,
+    technologies: [
+      "Javascript",
+      "React.js",
+      "Next.js",
+      "mongoDB",
+      "Express.js",
+      "SQL",
+      "Python",
+    ],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "May 2022 - Sept 2022",
+    role: "Software Developer",
+    company: "Mitacs Globalink Research Organization",
+    description: `I developed an interactive, React-based software tool for analyzing educational activities, improving data visualization efficiency by 25%, enhancing accessibility for color-blind users, and reducing manual analysis time by 20%, with adoption by over 200 users across multiple institutions.`,
+    technologies: [
+      "React.js",
+      "Node.js",
+      "mySQL",
+      "Vue.js",
+      "mongoDB",
+      "Three.js",
+    ],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "Jan 2022 - April 2022",
+    role: "Software Developer",
+    company: "National Institute of Hydrology",
+    description: `I developed a React application for visualizing rainfall runoff models, boosting presentation engagement by 40% and streamlining hydrological simulations for over 100 researchers, reducing manual data handling efforts by 25%.`,
+    technologies: ["React.js", "MongoDB", "Express", "Node.js"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "August 2022 - Nov 2022",
+    role: "Artificial Intelligence and Machine Learning Intern",
+    company: "QM Technologies Pvt.Ltd",
+    description: `I gained foundational knowledge in machine learning concepts, including linear and logistic regression, clustering, and KNN, and successfully developed an automatic number-plate recognition system using Tesseract OCR for text recognition in vehicle registration plates.`,
+    technologies: ["Python", "Tesseract", "OCR", "Regression", "Clustering"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Technical Blog Platform -  Web Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed an advanced blogging platform using the MERN stack, featuring comprehensive blog management, robust admin capabilities, and user authentication with Google OAuth. ",
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "Firebase",
+    ],
   },
   {
-    title: "Task Management App",
+    title:
+      "MasteryGrids TeacherDashboard - A tool to analyse students academic performance",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "This project involves designing and evaluating visualisations to support instructor and student planning of learning activities.",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Vue.js",
+      "Three.js",
+    ],
   },
   {
-    title: "Portfolio Website",
+    title: "Group Call Application with WebRTC Mesh Architecture",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed a real-time communication application supporting group calls using WebRTC with a Mesh architecture. Utilised SocketIO for signalling to establish and manage peer connections. Implemented a dynamic and responsive user interface with React.js, enabling seamless user interactions",
+    technologies: [
+      "React.js",
+      "WebRTC",
+      "Simple-peer",
+      "SocketIO",
+      "Node.js",
+      "Express.js",
+    ],
   },
   {
-    title: "Blogging Platform",
+    title: "Augmented Reality App for Education",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "I developed a marker-based AR technology with virtual buttons and AR video, providing an immersive and interactive learning experience for users of all ages, allowing in-depth concept understanding through mobile devices.",
+    technologies: ["C#", "Unity", "Vuforia", "Blender"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "York House, 50 York Road, Leicester LE15TT ",
+  phoneNo: "+44 7549297783",
+  email: "gvarad2001@gmail.com",
 };
